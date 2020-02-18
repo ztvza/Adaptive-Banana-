@@ -1,0 +1,44 @@
+.hero {
+	padding: 90px 0;
+}
+
+.hero__image {
+	max-width: 400px;
+}
+
+.hero__actions {
+	display: flex;
+}
+
+.hero__title {
+	margin-bottom: 25px;
+	font-size: 80px;
+	font-weight: 900;
+}
+
+.hero__subtitle {
+	margin-bottom: 25px;
+	font-size: 20px;
+	color: grey;
+	line-height: 1.5;
+}
+
+
+@media screen and ( max-width: 1024px ) {
+
+	.hero__title {
+		font-size: 45px;
+	}
+
+	.hero__image {
+		max-width: 300px;
+	}
+}
+
+@media screen and ( max-width: 767px ) {
+
+	.hero__title {
+		align-items: center;
+	}
+
+}
