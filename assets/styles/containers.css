@@ -3,6 +3,11 @@
 	margin: 0 auto;
 }
 
+.container.-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
 .content {
 	display: flex;
 	align-items: center;
@@ -15,6 +20,8 @@
 	.container {
 		width: 730px;
 	}
+
+	
 }
 
 @media screen and ( max-width: 767px ) {

@@ -1,0 +1,19 @@
+.footer {
+	background-color: #565656;
+	padding-bottom: 30px;
+	padding-top: 35px;
+}
+
+.footers {
+	display: flex;
+}
+
+.subtitle {
+	color: white;
+	display: flex;
+}
+.points {
+	margin-left: 40px;
+	margin-top: 5px;
+	color: white;
+}

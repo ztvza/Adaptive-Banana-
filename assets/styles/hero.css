@@ -23,6 +23,15 @@
 	line-height: 1.5;
 }
 
+.contacts {
+	margin-bottom: 30px;
+	font-size: 35px;
+}
+
+.maps {
+	width: 100%;
+}
+
 
 @media screen and ( max-width: 1024px ) {
 
