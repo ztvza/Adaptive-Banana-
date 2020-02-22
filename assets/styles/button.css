@@ -24,6 +24,19 @@
 	background-color: salmon;
 }
 
+@media screen and ( max-width: 580px ) {
+	
+	.hero__actions {
+		justify-content: center;
+	}
+
+	.button {
+		min-width: 50%;
+	}
+
+}
+
+
 @media screen and ( max-width: 767px ) {
 
  .button {

@@ -20,17 +20,20 @@
 	.container {
 		width: 730px;
 	}
-
 	
 }
 
 @media screen and ( max-width: 767px ) {
 
-	.container {
+.container {
 		width: 90%;
 	}
-	
-	.content {
+}
+
+
+@media screen and ( max-width: 580px ) {
+
+.content {
 		flex-direction: column;
 	}
 

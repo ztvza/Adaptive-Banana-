@@ -22,6 +22,7 @@ header a {
 }
 
 .header__link {
+	font-size: 18px;
 	margin-left: 15px;
 }
 
