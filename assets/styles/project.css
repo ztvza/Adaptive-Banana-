@@ -1,11 +1,12 @@
 .project {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .our-projects {
 	margin-bottom: 30px;
 	font-size: 35px;
+	text-align: center;
 }
 
 .projects {
@@ -32,6 +33,7 @@
 
 .left {
 	display: flex;
+	margin-right: 20px;
 }
 
 .ear {
@@ -57,16 +59,26 @@
 @media screen and ( max-width: 770px ) {
 
 	.projects {
-		max-width: 300px;
+		max-width: 250px;
 		margin-bottom: 20px;
+		padding-bottom: 10px;
 	}
 
 	.right {
 		display: block;
+		margin-right: 0px;
 	}
 
 	.left {
 		display: block;
+	}
+
+	.projects.-third {
+		margin-right: 0px;
+	}
+
+	.contacts {
+		text-align: center;
 	}
 
 }
@@ -76,7 +88,6 @@
 
 	.project {
 		display: block;
-		justify-content: center;
 	}
 
 	.projects {
