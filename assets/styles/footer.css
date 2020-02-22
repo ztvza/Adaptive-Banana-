@@ -1,6 +1,6 @@
 .footer {
 	background-color: #565656;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 	padding-top: 34px;
 }
 
@@ -12,8 +12,30 @@
 	color: white;
 	display: flex;
 }
+
 .points {
 	margin-left: 40px;
 	margin-top: 5px;
 	color: white;
+}
+
+
+@media screen and ( max-width: 500px ) {
+	
+.footers {
+	display: block;
+}	
+
+.subtitle {
+	display: block;
+}
+
+.points {
+	margin-left: 0px;
+}
+
+.in-transfer {
+	margin: 15px 0px 15px 0px;
+}
+
 }
