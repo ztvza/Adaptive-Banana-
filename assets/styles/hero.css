@@ -2,9 +2,14 @@
 	padding: 90px 0;
 }
 
-.hero__image {
+.scale {
 	max-width: 400px;
+	transition: 0.8s;
 }
+
+.scale:hover {
+    transform: scale(1.2);
+   }
 
 .hero__actions {
 	display: flex;
