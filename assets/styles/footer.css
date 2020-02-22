@@ -19,6 +19,13 @@
 	color: white;
 }
 
+.time {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: white;
+	text-align: center;
+}
+
 
 @media screen and ( max-width: 500px ) {
 	
