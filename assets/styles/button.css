@@ -1,17 +1,20 @@
 .button {
 	display: inline-block;
 	width: 200px;
-	border-radius: 6px;
-	border: 1px solid #565656;
+	border-radius: 8px;
+	border: 2px solid #565656;
 	padding: 10px 20px;
 	color: #565656;
 	transition: color, background-color .6s;
 	cursor: pointer;
+	text-align: center;
 }
 
 .button:hover {
-	background-color: grey;
+	background-color: #adadad;
 	color: white;
+	border: 2px solid #adadad;
+
 }
 
 .button.-success {
@@ -21,7 +24,7 @@
 }
 
 .button.-success:hover {
-	background-color: salmon;
+	background-color: #268540;
 }
 
 @media screen and ( max-width: 580px ) {

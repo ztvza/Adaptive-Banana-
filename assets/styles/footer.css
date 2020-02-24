@@ -14,9 +14,10 @@
 }
 
 .points {
-	margin-left: 40px;
+	margin-left: 35px;
 	margin-top: 5px;
 	color: white;
+	display: table;
 }
 
 .time {
@@ -26,23 +27,30 @@
 	text-align: center;
 }
 
+.in-transfer {
+	display: table;
+}
+
 
 @media screen and ( max-width: 500px ) {
 	
-.footers {
-	display: block;
-}	
+	.footers {
+		display: block;
+	}	
 
-.subtitle {
-	display: block;
-}
+	.subtitle {
+		justify-content: center;
+		margin-bottom: 15px;
+	}
 
-.points {
-	margin-left: 0px;
-}
+	.points {
+		margin-left: 0px;
+	}
 
-.in-transfer {
-	margin: 15px 0px 15px 0px;
-}
+	.in-transfer {
+		align-items: center;
+		margin: auto;
+		margin-bottom: 15px;
+	}
 
 }
